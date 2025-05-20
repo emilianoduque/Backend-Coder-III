@@ -14,5 +14,4 @@ apiRouter.use("/mocks", mocksRouter);
 apiRouter.use("/carts", cartsRouter);
 apiRouter.use("/users", usersRouter);
 
-
 export default apiRouter;

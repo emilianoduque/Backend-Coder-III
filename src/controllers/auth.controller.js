@@ -14,8 +14,5 @@ const signout = (req,res) => {
 }
 
 const online = (req,res) => res.json200(null, "Its online");
-const failure = (req,res) => {
-    return res.json401();
-}
 
-export {register, login, signout, online, failure};
+export {register, login, signout, online};
