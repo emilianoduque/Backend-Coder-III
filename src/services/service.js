@@ -18,4 +18,4 @@ const productsService = new Service(productsManager);
 const usersService = new Service(usersManager);
 const cartsService = new Service(cartsManager);
 
-export {productsService, usersService};
+export {productsService, usersService, cartsService};

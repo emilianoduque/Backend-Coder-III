@@ -1,4 +1,4 @@
-import {productsSevice, usersService} from "../services/service.js";
+import {productsService, usersService} from "../services/service.js";
 
 class Controller {
     constructor(service) {
@@ -44,7 +44,7 @@ class Controller {
     }
 }
 
-const productsController = new Controller(productsSevice);
+const productsController = new Controller(productsService);
 const usersController = new Controller(usersService);
 
 export {productsController, usersController};
